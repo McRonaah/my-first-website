@@ -122,3 +122,37 @@ h4{
    align-items: center;
    justify-content: space-around;
 }
+.about-text h2{
+   color: white;
+   font-size: 75px;
+   text-transform: capitalize;
+   margin-bottom: 20px;
+}
+.about-text h5{
+   color: white;
+   letter-spacing: 2px;
+   font-size: 22px;
+   margin-bottom: 25px;
+   text-transform: capitalize;
+}
+.about-text p{
+   color: #fcfc;
+   letter-spacing: 1px;
+   line-height: 25px;
+   margin-bottom: 45px;
+}
+button{
+   background-color: #f9004d;
+   color: white;
+   text-decoration: none;
+   border: 2px solid transparent;
+   font-weight: bold;
+   padding: 13px 30px;
+   border-radius: 30px;
+   transition: .4s;
+}
+button:hover{
+   background-color: transparent;
+   border: 2px solid #f9004d;
+   cursor: pointer;
+}
