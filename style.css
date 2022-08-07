@@ -157,12 +157,12 @@ button:hover{
    cursor: pointer;
 }
 .service{
-   background: #101010;
+   background: #3050a7;
    width: 100%;
    padding: 100% 0px;
 }
 .title h2{
-   color: white;
+   color: #131111;
    font-size: 75px;
    width: 1130px;
    margin: 30px auto;
@@ -247,6 +247,19 @@ h5{
    background-color: transparent;
    border: 2px solid #f9004d;
    cursor: pointer;
+}
+#contact-us{
+   text-align: center;
+   margin-top: 20px;
+   height: 400px;
+   background: #101010;
+   font-size: 30px;
+   color: white;
+   margin-bottom: 20px;
+   font-weight: bold;
+   display: flex;
+   flex-direction: column;
+   padding: 30px;
 }
 footer{
    position: relative;
