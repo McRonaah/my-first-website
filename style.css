@@ -14,11 +14,12 @@ marquee{
    font-family: Arial, Helvetica, sans-serif;
 }
 .hero{
-   height: 100vh;
+   height: 110vh;
    width: 100%;
-   background-image: url(./Images/Ron.jpeg);
+   background-image: url(./20220818_112353.jpg);
    background-size: cover;
    background-position: center;
+   background-color: #000;
 }
 nav{
    display: flex;
@@ -269,6 +270,7 @@ h5{
    display: flex;
    flex-direction: column;
    padding: 30px;
+   
 }
 footer{
    position: relative;
@@ -279,7 +281,10 @@ footer{
    flex-direction: column;
    align-items: center;
    justify-content: center;
+   background-image: url(./Images/Ron.jpeg);
+   background-size: cover;
 }
+
 footer p:nth-child(1){
    font-size: 30px;
    color: white;
